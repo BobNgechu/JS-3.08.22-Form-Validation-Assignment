@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation</title>
+    <script src="valdation.js" defer></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="valdation.css" />
+  </head>
+  <body>
+    <div class="container-fluid h-100 py-5 bg-light">
+      <div class="container-fluid bg-white px-0 pb-5 w-50 bg-white">
+        <div
+          class="container-fluid text-center bg-dark py-2"
+          style="position: relative; height: 20vh"
+        >
+          <div
+            class="containter-fluid h-100 w-100"
+            style="z-index: 1; position: absolute; top: 0; left: 0"
+          >
+            <h1
+              style="
+                color: green;
+                font-size: 45px;
+                font-weight: 300;
+                letter-spacing: 4px;
+              "
+            >
+              Welcome
+            </h1>
+          </div>
+          <div
+            class="containter-fluid h-100 w-100"
+            style="z-index: 2; position: absolute; top: 0; left: 0"
+          >
+            <h1
+              style="
+                color: rgba(255, 255, 255, 0.205);
+                font-weight: 900;
+                font-size: 45px;
+              "
+            >
+              Welcome
+            </h1>
+          </div>
+        </div>
+        <form action="" class="container">
+          <div class="form-group name-criteria">
+            <label for="">Name:</label>
+            <input
+              type="text"
+              name=""
+              id="name"
+              required
+              class="form-control bg-light"
+            />
+          </div>
+          <div class="form-group">
+            <label for="">email:</label>
+            <input
+              type="email"
+              name=""
+              id="email"
+              required
+              class="form-control bg-light"
+            />
+          </div>
+          <div class="form-group">
+            <label for="">password:</label>
+            <input
+              type="password"
+              name=""
+              id="password"
+              required
+              class="form-control bg-light"
+            />
+          </div>
+          <div class="form-group">
+            <label for="">confirm password:</label>
+            <input
+              type="password"
+              name=""
+              id="confirm-password"
+              required
+              class="form-control bg-light"
+            />
+          </div>
+          <button class="btn btn-outline-success w-100 py-3">submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
