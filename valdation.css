@@ -1,8 +1,22 @@
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 400;
+  border-radius: 5px;
 }
 body {
   width: 100%;
   height: 100vh;
+}
+
+.success-Border {
+  /* border: 3px solid green; */
+  box-shadow: 0 0 15px greenyellow;
+}
+.reject-Border {
+  /* border: 3px solid red; */
+  box-shadow: 0 0 15px red;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: none;
 }
